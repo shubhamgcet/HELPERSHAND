@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helpershand"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.helpershand.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.helpershand.third"></activity>
+        <activity 
+            android:name="com.example.helpershand.second"></activity>
+        <activity 
+            android:name="com.example.helpershand.fourth"></activity>
+        <activity 
+            android:name="com.example.helpershand.fifth"></activity>
+        <activity 
+            android:name="com.example.helpershand.sixth"></activity>
+        <activity 
+            android:name="com.example.helpershand.seventh"></activity>
+        <activity 
+            android:name="com.example.helpershand.eight"></activity>
+        <activity 
+            android:name="com.example.helpershand.ninth"></activity>
+        <activity 
+            android:name="com.example.helpershand.tenth"></activity>
+</application>
+</manifest>
